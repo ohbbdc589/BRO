@@ -682,7 +682,7 @@ def meyexudi():
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "-".join(uuid)
   try:
-    httpCaht = requests.get('https://github.com/SSC-LOL/PAID-9.2V/blob/main/approval.txt').text
+    httpCaht = requests.get('https://github.com/ohbbdc589/BRO/blob/main/README.md%20approval.txt').text
     if id in httpCaht:
       print(fuckyoursali)
       print(hedaborakarent)
@@ -1044,7 +1044,7 @@ def setting():
     print("\x1b[38;5;50m┣━\033[1;91m[\033[1;92m2\033[1;91m]\033[1;92m \x1b[38;5;50m CP ID [\x1b[38;5;50mBEST\x1b[38;5;50m]")
     print(f'\033[38;5;196m┗━───────────────\033[1;37m')
     hc = input('\033[1;91m[\033[1;92m+\033[1;91m] \033[1;96mCHOOSE: ')
-    #os.system("xdg-open https://www.facebom/ASHIK.King.Ok.Bro")
+    os.system("xdg-open https://www.facebom/ASHIK.King.Ok.Bro")
     if hc in ['1','01']:
         method.append('mobile')
     elif hc in ['2','02']:
